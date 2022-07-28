@@ -1,3 +1,6 @@
+mod token;
+mod lexer;
+
 use std::ffi::OsString;
 use users::get_current_username;
 
